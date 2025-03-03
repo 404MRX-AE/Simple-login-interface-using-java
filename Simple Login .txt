@@ -1,0 +1,21 @@
+import java.util.Scanner;
+// MADE BY PATRICK DELA ROSA
+class Main{
+    public static void main(String[]args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("*******LOGIN YOUR ACCOUNT*******");
+        
+        
+        System.out.print("Name: ");
+        String name = scanner.nextLine();
+        System.out.print("Password: ");
+        int password = scanner.nextInt();
+        
+        
+        System.out.println("*******YOU'VE SUCCESSFULLY LOGIN*******");
+        System.out.print(""+ name);
+        System.out.print(""+ password);
+        
+        scanner.close();
+    }
+}
